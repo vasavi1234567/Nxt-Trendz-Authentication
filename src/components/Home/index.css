@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.home-image-small {
+  display: flex;
+}
+.home-image-large {
+  display: none;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.home-image-small {
+  width: 70vw;
+}
+.home-description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.shop-now-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 992px) {
+  .home-image-small {
+    display: none;
+  }
+  .home-image-large {
+    display: flex;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  .home-content {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heading {
+    text-align: start;
+    font-size: 42px;
+  }
+  .home-description {
+    margin-left: 0px;
+    text-align: start;
+    font-size: 25px;
+  }
+}

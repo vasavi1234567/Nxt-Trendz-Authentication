@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.nxt-logo {
+  width: 50vw;
+}
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+  }
+}

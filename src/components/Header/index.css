@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+}
+.website-logo {
+  height: 6vh;
+}
+.log-out-button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 35vw;
+}
+@media screen and (min-width: 576px) {
+  .log-out-button {
+    margin-left: 43vw;
+  }
+}
+.log-out-image {
+  height: 5vh;
+}
+.nav-content {
+  display: flex;
+}
+.nav-bar-small-container {
+  display: flex;
+}
+.menu-item-images-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  background-color: #e6f6ff;
+  width: 85vw;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.image {
+  height: 5vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.nav-bar-items-large-container {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .nav-bar-container {
+    display: none;
+  }
+  .nav-content {
+    display: flex;
+  }
+  .nav-bar-small-container {
+    display: none;
+  }
+  .nav-bar-items-large-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 15px;
+    width: 85vw;
+  }
+  .items-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-item {
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-right: 15px;
+  }
+  .logout-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10vw;
+  }
+}
